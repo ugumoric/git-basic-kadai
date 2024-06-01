@@ -1,0 +1,15 @@
+PS C:\Users\secon> cd C:\Users\secon\OneDrive\デスクトップ\git_tutorial\git_challenge
+PS C:\Users\secon\OneDrive\デスクトップ\git_tutorial\git_challenge> git init
+Initialized empty Git repository in C:/Users/secon/OneDrive/繝・せ繧ｯ繝医ャ繝・git_tutorial/git_challenge/.git/
+PS C:\Users\secon\OneDrive\デスクトップ\git_tutorial\git_challenge> git add hello_world.txt
+PS C:\Users\secon\OneDrive\デスクトップ\git_tutorial\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 004059a] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\secon\OneDrive\デスクトップ\git_tutorial\git_challenge> git add hello_world.txt
+PS C:\Users\secon\OneDrive\デスクトップ\git_tutorial\git_challenge> git commit -m "日本語訳を追記"
+[main 44bc4fd] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\secon\OneDrive\デスクトップ\git_tutorial\git_challenge> git log --oneline
+44bc4fd (HEAD -> main) 日本語訳を追記
+004059a hello_world.txtを追加
